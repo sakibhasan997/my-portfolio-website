@@ -1,10 +1,12 @@
 import React from 'react';
 import Info from '../../components/Info';
-import {FaDownload} from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import CV from "../../assets/Sakib Hasan front-end web developer (5).pdf"
 import Stats from '../../components/Stats';
 import './About.css'
 import Skills from '../../components/Skills';
+import { resume } from '../../data';
+import ResumeItem from '../../components/ResumeItem';
 
 const About = () => {
     return (
@@ -19,14 +21,14 @@ const About = () => {
                         <h3 className="section__subtitle">Personal Infos</h3>
 
                         <ul className="info__list grid">
-                            <Info/>
+                            <Info />
                         </ul>
 
-                        <a href={CV} download='' className="button">Download CV <span className="button__icon"><FaDownload/> </span> </a>
+                        <a href={CV} download='' className="button">Download CV <span className="button__icon"><FaDownload /> </span> </a>
                     </div>
 
                     <div className="stats grid">
-                        <Stats/>
+                        <Stats />
                     </div>
                 </div>
             </section>
@@ -37,7 +39,31 @@ const About = () => {
                 <h3 className="section__subtitle subtitle__center">My Skills</h3>
 
                 <div className="skills__container grid">
-                    <Skills/>
+                    <Skills />
+                </div>
+            </section>
+
+            <div className="separator"></div>
+
+            <section className="resume">
+                <h3 className="section__subtitle subtitle__center">Experience & Education</h3>
+
+                <div className="resume__container grid">
+                    <div className="resume__data">
+                        {resume.map((val) =>{
+                            if(val.category === 'experience'){
+                                return <ResumeItem key={val.id} {...val} />
+                            }
+                        })}
+                    </div>
+
+                    <div className="resume__data">
+                        {resume.map((val) =>{
+                            if(val.category === 'education'){
+                                return <ResumeItem key={val.id}  {...val} />
+                            }
+                        })}
+                    </div>
                 </div>
             </section>
         </main>
