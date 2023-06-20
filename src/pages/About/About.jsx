@@ -4,6 +4,7 @@ import {FaDownload} from "react-icons/fa";
 import CV from "../../assets/Sakib Hasan front-end web developer (5).pdf"
 import Stats from '../../components/Stats';
 import './About.css'
+import Skills from '../../components/Skills';
 
 const About = () => {
     return (
@@ -31,6 +32,14 @@ const About = () => {
             </section>
 
             <div className="separator"></div>
+
+            <section className="skills">
+                <h3 className="section__subtitle subtitle__center">My Skills</h3>
+
+                <div className="skills__container grid">
+                    <Skills/>
+                </div>
+            </section>
         </main>
     );
 };
