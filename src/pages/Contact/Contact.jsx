@@ -36,7 +36,7 @@ const Contact = () => {
 
                             <div>
                                 <span className="info__title">Mail me</span>
-                                <span className="info__desc">sakibhasan4772@gmail.com</span>
+                                <h4 className="info__desc">sakibhasan4772@gmail.com</h4>
                             </div>
                         </div>
 
@@ -45,25 +45,27 @@ const Contact = () => {
 
                             <div>
                                 <span className="info__title">Call me</span>
-                                <span className="info__desc">(+880) 01626384772</span>
+                                <h4 className="info__desc">(+880) 01626384772</h4>
                             </div>
                         </div>
                     </div>
 
-                    <Link to="https://www.facebook.com/profile.php?id=100035207767398" className="contact__social-link">
-                        <FaFacebookF />
-                    </Link>
+                    <div className="contact__socials">
+                        <Link to="https://www.facebook.com/profile.php?id=100035207767398" target="_blank" className="contact__social-link">
+                            <FaFacebookF />
+                        </Link>
 
-                    <Link to="https://github.com/sakibhasan997" className="contact__social-link">
-                        <FaGithub />
-                    </Link>
+                        <Link to="https://github.com/sakibhasan997" target="_blank" className="contact__social-link">
+                            <FaGithub />
+                        </Link>
 
-                    <Link to="https://www.linkedin.com/in/sakib-hasan-9a0286229/" className="contact__social-link">
-                        <FaLinkedin />
-                    </Link>
-                    {/* <Link to="https://www.facebook.com/profile.php?id=100035207767398" className="contact__social-link">
+                        <Link to="https://www.linkedin.com/in/sakib-hasan-9a0286229/" target="_blank" className="contact__social-link">
+                            <FaLinkedin />
+                        </Link>
+                        {/* <Link to="https://www.facebook.com/profile.php?id=100035207767398" className="contact__social-link">
                         <FaDribbble/>
                     </Link> */}
+                    </div>
                 </div>
 
                 <form className="contact__form">
@@ -86,9 +88,9 @@ const Contact = () => {
                     </div>
 
                     <button className="button">
-                        Send Message 
+                        Send Message
                         <span className="button__icon contact__button-icon">
-                            <FiSend/>
+                            <FiSend />
                         </span>
                     </button>
                 </form>
