@@ -7,6 +7,7 @@ import About from './pages/About/About'
 import Portfolio from './pages/Portfolio/Portfolio'
 import Contact from './pages/Contact/Contact'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Themes from './components/Themes'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <>
     <BrowserRouter>
       <Navbar/>
+      <Themes/>
       <Routes>
         <Route index element={<Home/>} />
         <Route path='about' element={<About/>} />

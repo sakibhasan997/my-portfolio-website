@@ -37,6 +37,14 @@
 
 }
 
+.dark-theme {
+    --title-color: hsl(0, 0%, 100%);
+    --text-color: hsl(0, 0%, 80%);
+    --body-color: hsl(0, 0%, 5%);
+    --container-color: hsl(0, 0%, 17%);
+    --border-color: hsl(0, 0%, 15%);
+}
+
 /* ===================== BASE ====================== */
 * {
     margin: 0;
@@ -102,7 +110,7 @@ img {
     padding-block: 70px;
 }
 
-.section__title{
+.section__title {
     font-size: var(--big-font-size);
     font-weight: var(--weight-800);
     text-align: center;
