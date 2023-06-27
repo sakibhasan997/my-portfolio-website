@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from "../../assets/home.jpg"
+import Profile from "../../assets/sakib1.jpg"
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa";
 import './Home.css'
@@ -17,11 +17,11 @@ const Home = () => {
                      <TypeAnimation
                         sequence={[
                             // Same substring at the start will only be typed out once, initially
-                            'I am Rect Developer',
+                            'I am a Rect Developer',
                             1000, // wait 1s before replacing "Mice" with "Hamsters"
-                            'I am Full-Stack Developer',
+                            'I am a Full-Stack Developer',
                             1000,
-                            'I am Web Developer',
+                            'I am a Web Developer',
                             1000
                         ]}
                         wrapper="span"
