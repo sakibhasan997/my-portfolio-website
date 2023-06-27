@@ -24,11 +24,16 @@ const About = () => {
                             <Info />
                         </ul>
 
-                        <a href={CV} download='' className="button">Download CV <span className="button__icon"><FaDownload /> </span> </a>
+                        <a href={CV} download='' className="button">MY RESUME <span className="button__icon"><FaDownload /> </span> </a>
                     </div>
 
-                    <div className="stats grid">
-                        <Stats />
+                    <div className="">
+                        {/* <Stats /> */}
+                        <p>I am a full-Stack web developer. I have trained in a full stack web development course from the programming hero platform. And i have created many project of front end and back end. I have experience in database management using HTML, CSS, JavaScript, React.JS, Node.JS, and mongoDB.</p>
+                        <br />
+                        <p>
+                            As a Full-Stack web developer my goal is to make an attractive and appropriate website by which users can get higher experience. I am interested in enhancing my skill and discovering new technology. And I love working together. Because I think if we work together, no matter how difficult it is, it can be done very quickly.  
+                        </p>
                     </div>
                 </div>
             </section>
@@ -36,16 +41,18 @@ const About = () => {
             <div className="separator"></div>
 
             <section className="skills">
-                <h3 className="section__subtitle subtitle__center">My Skills</h3>
+            <h2 className="section__title">
+                    My <span>Skills</span>
+                </h2>
 
                 <div className="skills__container grid">
                     <Skills />
                 </div>
             </section>
 
-            <div className="separator"></div>
+            {/* <div className="separator"></div> */}
 
-            <section className="resume">
+            {/* <section className="resume">
                 <h3 className="section__subtitle subtitle__center">Experience & Education</h3>
 
                 <div className="resume__container grid">
@@ -65,7 +72,7 @@ const About = () => {
                         })}
                     </div>
                 </div>
-            </section>
+            </section> */}
         </main>
     );
 };

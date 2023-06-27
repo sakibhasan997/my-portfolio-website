@@ -27,6 +27,19 @@ import Theme8 from './assets/orange.png';
 import Theme9 from './assets/green.png';
 import Theme10 from './assets/yellow.png';
 
+import skill1 from './assets/html.png'
+import skill2 from './assets/css-3.png'
+import skill3 from './assets/js.png'
+import skill4 from './assets/react.png'
+import skill5 from './assets/express-js.png'
+import skill6 from './assets/Node.js.png'
+import skill7 from './assets/tailwind.jpg'
+import skill8 from './assets/bootstrap.png'
+import skill9 from './assets/github.png'
+import skill10 from './assets/Mongo-DB.jpg'
+import skill11 from './assets/firebase.png'
+import skill12 from './assets/figma.jpg'
+
 export const links = [
   {
     id: 1,
@@ -61,61 +74,49 @@ export const personalInfo = [
   {
     id: 1,
     title: 'First Name : ',
-    description: 'Steve',
+    description: 'Sakib',
   },
 
   {
     id: 2,
     title: 'Last Name : ',
-    description: 'Milner',
+    description: 'Hasan',
   },
 
   {
     id: 3,
     title: 'Age : ',
-    description: '27 Years',
+    description: '21 Years',
   },
 
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Tunisian',
+    description: 'Bangladesh',
   },
 
   {
     id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
+    title: 'Address : ',
+    description: 'Khulna, Bangladesh',
   },
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Tunis',
+    title: 'Phone : ',
+    description: '(+880) 1626384772',
   },
 
   {
     id: 7,
-    title: 'Phone : ',
-    description: '+21621184010',
+    title: 'Email : ',
+    description: 'sakibhasan4772@gmail.com',
   },
 
   {
     id: 8,
-    title: 'Email : ',
-    description: 'you@mail.com',
-  },
-
-  {
-    id: 9,
-    title: 'Skype : ',
-    description: 'steve.milner',
-  },
-
-  {
-    id: 10,
-    title: 'Langages : ',
-    description: 'French, English',
+    title: 'Languages : ',
+    description: 'Bangla, English',
   },
 ];
 
@@ -204,50 +205,70 @@ export const resume = [
 export const skills = [
   {
     id: 1,
-    title: 'Html',
-    percentage: '25',
+    title: 'HTML',
+    img: skill1,
   },
 
   {
     id: 2,
-    title: 'Javascript',
-    percentage: '89',
+    title: 'CSS',
+    img: skill2,
   },
 
   {
     id: 3,
-    title: 'Css',
-    percentage: '70',
+    title: 'JAVASCRIPT',
+    img: skill3,
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'REACT.JS',
+    img: skill4,
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: 'EXPRESS.JS',
+    img: skill5,
   },
 
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: 'NODE.JS',
+    img: skill6,
   },
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'TAILWIND',
+    img: skill7,
   },
 
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    title: 'BOOTSTRAP',
+    img: skill8,
+  },
+  {
+    id: 9,
+    title: 'GITHUB',
+    img: skill9,
+  },
+  {
+    id: 10,
+    title: 'MONGO-DB',
+    img: skill10,
+  },
+  {
+    id: 11,
+    title: 'FIREBASE',
+    img: skill11,
+  },
+  {
+    id: 12,
+    title: 'FIGMA',
+    img: skill12,
   },
 ];
 

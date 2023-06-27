@@ -30,10 +30,10 @@ const PortfolioItem = ({ img, title, details }) => {
                                     <li className="modal__item" key={index} >
                                         <span className="item__icon">{icon}</span>
 
-                                        
-                                            <span className="item__title">{title}</span>
-                                            <div className="item__details">{desc}</div>
-                                        
+
+                                        <span className="item__title">{title}</span>
+                                        <div className="item__details">{desc}</div>
+
                                     </li>
                                 )
                             })}
