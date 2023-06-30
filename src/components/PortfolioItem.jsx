@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Close from "../assets/close.svg"
 
-const PortfolioItem = ({ img, title, details }) => {
+const PortfolioItem = ({ img, title, details, modal_img }) => {
 
     const [modal, setModal] = useState(false);
 
@@ -24,7 +24,7 @@ const PortfolioItem = ({ img, title, details }) => {
 
                         <h3 className="modal__title">{title}</h3>
 
-                        <ul className="modal__list grid">
+                        <ul className="modal__list ">
                             {details.map(({ icon, title, desc }, index) => {
                                 return (
                                     <li className="modal__item" key={index} >
@@ -32,7 +32,7 @@ const PortfolioItem = ({ img, title, details }) => {
 
 
                                         <span className="item__title">{title}</span>
-                                        <div className="item__details">{desc}</div>
+                                        <div className=" item__details">{desc}</div>
 
                                     </li>
                                 )

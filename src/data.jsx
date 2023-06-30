@@ -10,11 +10,15 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/modify1.png';
-import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
-import Work4 from './assets/project-4.jpeg';
-import Work5 from './assets/project-5.jpg';
-import Work6 from './assets/project-6.jpg';
+import Work2 from './assets/modify2.png';
+import Work3 from './assets/modify3.png';
+import Work4 from './assets/modify4.png';
+import Work5 from './assets/modify5.png';
+import Work6 from './assets/modify6.png';
+
+import modal1 from './assets/modal1.png'
+import modal2 from './assets/modal2.png'
+import modal3 from './assets/modal3.png'
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -276,27 +280,18 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
+    modal_img: modal1,
     title: 'Martial Arts',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'Project :',
+        desc: 'FullStack',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://assignment-12-5eb27.web.app',
       },
     ],
   },
@@ -304,27 +299,18 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    modal_img: modal2,
+    title: 'Toy marketplace ',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React JS',
+        title: 'Project :',
+        desc: 'FullStack',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://assignment-11-705cf.web.app',
       },
     ],
   },
@@ -332,27 +318,18 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    modal_img: modal3,
+    title: 'Chef Recipe',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: 'Project :',
+        desc: 'FrontEnd',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://assignment-10-clinet-site.web.app',
       },
     ],
   },
@@ -360,27 +337,17 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'PSD TO HTML',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: 'Project :',
+        desc: 'Pst to Html',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://transcendent-sopapillas-df6034.netlify.app',
       },
     ],
   },
@@ -388,23 +355,17 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Bootstrap Project',
     details: [
       {
-        title: 'Project : ',
-        desc: 'Website',
+        icon: <FaCode />,
+        title: 'Project :',
+        desc: 'Bootstrap',
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
-      },
-      {
+        icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://dynamic-beignet-0fa014.netlify.app',
       },
     ],
   },
@@ -412,27 +373,17 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'React Router',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'Project :',
+        desc: 'React router',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: 'https://incredible-babka-88befd.netlify.app/',
       },
     ],
   },

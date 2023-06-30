@@ -28,6 +28,7 @@
 
 .home__title span {
     color: var(--first-color);
+    display: inline-block;
 }
 
 .home__title::before {

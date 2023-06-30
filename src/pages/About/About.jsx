@@ -1,12 +1,13 @@
 import React from 'react';
 import Info from '../../components/Info';
-import { FaDownload } from "react-icons/fa";
+import { FaArrowRight, FaDownload } from "react-icons/fa";
 import CV from "../../assets/Sakib Hasan front-end web developer (5).pdf"
 import Stats from '../../components/Stats';
 import './About.css'
 import Skills from '../../components/Skills';
 import { resume } from '../../data';
 import ResumeItem from '../../components/ResumeItem';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
@@ -24,7 +25,13 @@ const About = () => {
                             <Info />
                         </ul>
 
-                        <a href={CV} download='' className="button">MY RESUME <span className="button__icon"><FaDownload /> </span> </a>
+                        <Link to='/portfolio' className='button'>
+                            My Projects {' '}
+                            <span className='button__icon'>
+                                <FaArrowRight />
+                            </span>
+                        </Link>
+                        {/* <a href={CV} download='' className="button">MY RESUME <span className="button__icon"><FaDownload /> </span> </a> */}
                     </div>
 
                     <div className="">
