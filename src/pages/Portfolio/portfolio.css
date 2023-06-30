@@ -6,7 +6,6 @@
     position: relative;
     border-radius: 10px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .portfolio__img {
@@ -67,6 +66,7 @@
     right: -8.5%;
     width: 50px;
     height: 50px;
+    cursor: pointer;
     filter: invert(0.8);
 }
 

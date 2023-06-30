@@ -6,7 +6,7 @@ import "./portfolio.css"
 const Portfolio = () => {
     return (
         <section className="portfolio section">
-            <h2 className="section__title">My <span>Portfolio</span></h2>
+            <h2 className="section__title">My <span>Projects</span></h2>
 
             <div className="portfolio__container container grid">
                 {portfolio.map((item)=>{

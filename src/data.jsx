@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
+import Work1 from './assets/modify1.png';
 import Work2 from './assets/project-2.jpg';
 import Work3 from './assets/project-3.jpeg';
 import Work4 from './assets/project-4.jpeg';
@@ -276,7 +276,7 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Martial Arts',
     details: [
       {
         icon: <FiFileText />,
